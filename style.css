@@ -1,13 +1,19 @@
 .header {
-  padding: 25px;
+  padding: 7px 40px 7px 40px;
   background: #202020;
   color: white;
   display: flex;
 }
 
+body,
+html {
+  height: 100%;
+}
+
 .button-action {
   border: none;
   background-color: transparent;
+  font-weight: 300;
 }
 
 .button-action > i {
@@ -16,7 +22,7 @@
 }
 
 .input-search {
-  width: 300px;
+  width: 207px;
   height: 26px;
   background-color: hsla(0, 0%, 100%, 0.2);
   border: 1px solid transparent;
@@ -38,5 +44,46 @@
 .input-icon {
   position: absolute;
   left: 3px;
+  padding-left: 5px;
   top: calc(50% - 0.5em);
+}
+
+.float-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.menu {
+  background: #202020;
+  height: 100%;
+  width: 250px;
+}
+
+.list-menu {
+  color: white;
+
+  padding: 40px;
+}
+
+.list-menu li {
+  padding-top: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+li p {
+  padding-left: 10px;
+}
+
+i.fa-inbox {
+  color: #5297ff;
+}
+
+i.fa-calendar-plus-o {
+  color: #25b84c;
+}
+
+i.fa-calendar {
+  color: #a970ff;
 }
