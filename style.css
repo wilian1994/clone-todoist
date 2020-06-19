@@ -1,6 +1,6 @@
 .header {
   padding: 7px 40px 7px 40px;
-  background: #202020;
+  background: #282828;
   color: white;
   display: flex;
 }
@@ -8,7 +8,12 @@
 body,
 html {
   height: 100%;
+  background: #202020;
 }
+
+/* main-title {
+  color
+} */
 
 .button-action {
   border: none;
@@ -54,10 +59,42 @@ html {
   width: 100%;
 }
 
-.menu {
-  background: #202020;
+.main {
+  color: white;
+  padding: 70px;
+  font-weight: bold;
+  width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main h1 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.main-action {
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  padding: 10px;
+}
+
+.main-title {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.principal {
+  display: flex;
   height: 100%;
-  width: 250px;
+}
+
+.menu {
+  background: #282828;
+  width: 30%;
 }
 
 .list-menu {
